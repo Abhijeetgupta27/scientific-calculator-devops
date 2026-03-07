@@ -57,7 +57,7 @@ pipeline {
             echo 'Pipeline successfully completed!'
             emailext(
                 to: 'ag2761001@gmail.com',
-                subject: 'Build Success: Calculator Pipeline',
+                subject: 'Build Success: Calculator',
                 body: 'The Jenkins pipeline for the Scientific Calculator project has completed successfully.'
             )
         }
@@ -65,7 +65,7 @@ pipeline {
             echo 'Pipeline failed!'
             emailext(
                 to: 'ag2761001@gmail.com',
-                subject: 'Build Failure: Calculator Pipeline',
+                subject: 'Build Failure: Calculator',
                 body: 'The Jenkins pipeline for the Scientific Calculator project has failed.'
             )
         }
