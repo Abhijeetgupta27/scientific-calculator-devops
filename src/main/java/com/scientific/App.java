@@ -21,8 +21,8 @@ public class App {
         return a * b;
     }
 
-    // Division
-    public static double divide(double a, double b){
+    // Division Function
+        public static double divide(double a, double b){
         return a / b;
     }
 
